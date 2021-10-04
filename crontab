@@ -1,0 +1,6 @@
+# Crontab notes
+
+# m h  dom mon dow   command
+
+# Prevent mail/log spam with ">/dev/null 2>&1"
+* * * * * ~/something.sh >/dev/null 2>&1
